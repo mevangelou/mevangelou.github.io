@@ -8,10 +8,9 @@
 
 <div align="center">
 
-# [Your Full Name]
+# [Marina Evangelou]
 
-### [Your Job Title], [Department Name] at [Institution Name]
-#### [Optional: Secondary role or affiliation, e.g. "Joint Director of ..."]
+### [Reader in Statistics], [Department of Mathematics] at [Imperial College London]
 
 </div>
 
