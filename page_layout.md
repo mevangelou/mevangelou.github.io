@@ -1,115 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Title and Content Layout</title>
-<style>
-  * {
-    box-sizing: border-box;
-  }
+<!--
+  STYLE TEMPLATE (structure only — no original text or images included)
+  Inspired by the layout pattern of an academic personal homepage
+  (profile photo + name/title header, address block, bio, research
+  sections with bullet lists, and social icons footer).
+  Replace all [placeholder] items with your own content.
+-->
 
-  body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #f4f4f6;
-    margin: 0;
-    padding: 40px 20px;
-    color: #2b2b2b;
-  }
+<div align="center">
 
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    padding: 40px;
-  }
+# [Your Full Name]
 
-  .content-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    align-items: flex-start;
-  }
+### [Your Job Title], [Department Name] at [Institution Name]
+#### [Optional: Secondary role or affiliation, e.g. "Joint Director of ..."]
 
-  .image-placeholder {
-    flex: 0 0 280px;
-    width: 280px;
-    height: 280px;
-    background-color: #e0e0e6;
-    border: 2px dashed #b5b5bd;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #8a8a94;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 20px;
-  }
+</div>
 
-  .text-section {
-    flex: 1 1 400px;
-    min-width: 260px;
-  }
+---
 
-  h1.title {
-    font-size: 32px;
-    margin: 0 0 16px 0;
-    color: #1a1a1a;
-  }
+<table>
+<tr>
+<td width="220" valign="top">
 
-  .body-text {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
-  }
+**[ IMAGE PLACEHOLDER ]**
+*(Profile photo, ~220×220px, square or rounded)*
 
-  .body-text p {
-    margin: 0 0 16px 0;
-  }
+</td>
+<td valign="top">
 
-  @media (max-width: 600px) {
-    .image-placeholder {
-      flex: 0 0 100%;
-      width: 100%;
-      height: 220px;
-    }
-  }
-</style>
-</head>
-<body>
+**[Office/Room Number], [Building Name]**
+[Campus Name]
+[Street Address]
+[City, Postcode]
+[Country]
 
-  <div class="container">
-    <div class="content-wrapper">
+</td>
+</tr>
+</table>
 
-      <!-- Image Placeholder -->
-      <div class="image-placeholder">
-        [ Image Placeholder ]<br>
-        280 × 280
-      </div>
+---
 
-      <!-- Title and Text -->
-      <div class="text-section">
-        <h1 class="title">Your Title Goes Here</h1>
-        <div class="body-text">
-          <p>
-            This is a placeholder paragraph for your text content. Replace this
-            with your own copy — it could be a description, an introduction,
-            or any supporting information related to your title above.
-          </p>
-          <p>
-            You can add multiple paragraphs here, and the layout will adjust
-            responsively. On smaller screens, the image will stack above the
-            text instead of sitting beside it.
-          </p>
-        </div>
-      </div>
+## About
 
-    </div>
-  </div>
+> *[One-sentence summary of your professional focus and interests — placeholder.]*
 
-</body>
-</html>
+[Placeholder paragraph describing your broader research interests, academic philosophy, or professional mission. Two to four sentences, plain body text, left-aligned, sans-serif.]
+
+[Placeholder paragraph expanding on your group's focus or your personal approach — this is the "long bio" section typical of academic homepages.]
+
+---
+
+## Research Focus *(section header style: bold, small-caps or uppercase, divider line above)*
+
+- **[Theme 1 placeholder]** — short description of a methodological focus area
+- **[Theme 2 placeholder]** — short description of a methodological focus area
+- **[Theme 3 placeholder]** — short description of a methodological focus area
+
+## Applications *(secondary section, same header style)*
+
+In collaboration with **[domain experts placeholder]**, work is adapted and applied to:
+
+- [Application area 1 placeholder]
+- [Application area 2 placeholder]
+- [Application area 3 placeholder]
+
+---
+
+## Connect
+
+<p align="center">
+[ icon ] &nbsp;&nbsp; [ icon ] &nbsp;&nbsp; [ icon ]
+<br/>
+<sub>(small circular/monochrome social icons, centered, e.g. Scholar · LinkedIn · GitHub)</sub>
+</p>
+
+---
+
+### Style Notes (design tokens extracted from the layout pattern)
+
+| Element | Style |
+|---|---|
+| **Background** | Plain white / very light gray |
+| **Typography** | Clean sans-serif (e.g. Noto Sans, Lato, or system sans-serif stack) |
+| **Headings** | Bold, generous letter-spacing, minimal decoration |
+| **Body text** | Medium gray-black, comfortable line-height (~1.6) |
+| **Layout** | Centered content column, max-width ~900–1000px |
+| **Photo placement** | Left-aligned block beside name/title, square or slightly rounded corners |
+| **Sections** | Simple `##` headers with thin horizontal rule dividers, no heavy boxes |
+| **Lists** | Minimal bullet markers, left-aligned, used for research/application themes |
+| **Icons/Links** | Small, monochrome, circular, centered in a row at page bottom |
+| **Overall tone** | Minimal, academic, generous white space, no bright colors |
