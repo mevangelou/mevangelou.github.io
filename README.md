@@ -14,10 +14,10 @@ layout: "single"
 
 # [Marina Evangelou]
 
-<b>[Marina Evangelou](https://www.st-andrews.ac.uk/about/) looks forward to welcoming the fifth BioInference meeting on 10th – 12th June 2026!</b>
+<b>[Marina Evangelou](https://profiles.imperial.ac.uk/m.evangelou), Reader in Statistics <b>
 
 
-### [Reader in Statistics], <b>[Department of Mathematics](https://www.imperial.ac.uk/mathematics/) at [Imperial College London](https://www.imperial.ac.uk).
+### <b>[Department of Mathematics](https://www.imperial.ac.uk/mathematics/) at [Imperial College London](https://www.imperial.ac.uk).
 
 </div>
 
